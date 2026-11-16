@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Петрова Ирина — репетитор и переводчик китайского</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Петрова Ирина — репетитор и переводчик китайского языка. Онлайн-занятия в Zoom: HSK, поступление, жизнь в Китае, бизнес-китайский.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&amp;family=Noto+Serif+SC:wght@500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6EFE6}
+.js > header,.js > .page-in,.js > footer,header,.page-in,footer{position:relative;z-index:1}
+p{text-align:justify;hyphens:manual;text-wrap:pretty}
+h1,h2,h3,summary,button,a{hyphens:manual;text-wrap:balance}
+a{color:#6E1B2A}a:hover{color:#4A121C}
+.float{animation:fl 6s ease-in-out infinite;will-change:transform}
+.float.d2{animation-delay:-3s}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.rise.d1{animation-delay:.12s}.rise.d2{animation-delay:.24s}.rise.d3{animation-delay:.36s}.rise.d4{animation-delay:.5s}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+.js .reveal{opacity:0;transform:translateY(42px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;transform:none}
+.page-in{animation:pagein .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pagein{from{opacity:0;transform:translateY(24px);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
+
+.ava{box-shadow:0 0 0 0 rgba(110,27,42,.5);animation:ping 2s ease-out infinite}
+.photo-zoom{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.photo-zoom:hover{transform:scale(1.03) rotate(-1deg)}
+.btn{transition:transform .25s ease, box-shadow .25s ease}
+.btn:hover{transform:translateY(-3px);box-shadow:0 12px 26px rgba(110,27,42,.25)}
+.pulse{position:relative;isolation:isolate}
+.pulse::before{content:"";position:absolute;inset:0;border-radius:inherit;background:#6E1B2A;z-index:-1;animation:pulse 2.6s ease-out infinite;will-change:transform,opacity}
+@keyframes pulse{0%{transform:scale(1);opacity:.35}100%{transform:scale(1.06,1.25);opacity:0}}
+.card,.chip{transition:transform .35s ease, box-shadow .35s ease}
+.card:hover,.chip:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(74,18,28,.12)}
+.tab{transition:background .3s ease,color .3s ease,transform .25s ease}
+.tab:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.tab:focus-visible{outline:3px solid #6E1B2A;outline-offset:3px}
+details summary{list-style:none;cursor:pointer}
+details summary::-webkit-details-marker{display:none}
+.acc{transition:box-shadow .3s ease, border-color .3s ease}
+.acc:hover{box-shadow:0 12px 30px rgba(74,18,28,.1)}
+.acc[open]{border-color:#B98A90}
+.acc .plus{transition:transform .35s ease, background .3s ease, color .3s ease}
+.acc[open] .plus{transform:rotate(45deg);background:#6E1B2A;color:#FFFFFF}
+.acc[open] .ans{animation:rise .45s ease both}
+.flip{perspective:1400px}
+.flip-inner{transition:transform .8s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+.flip-inner{transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg))}
+.flip.tilting .flip-inner{transition:transform .12s ease-out}
+.flip.flipped .flip-inner{transform:rotateY(180deg)}
+.glare{position:absolute;inset:0;border-radius:20px;pointer-events:none;opacity:0;transition:opacity .3s ease;background:radial-gradient(circle at var(--gx,50%) var(--gy,30%),rgba(255,255,255,.55),rgba(255,255,255,0) 55%)}
+.flip.tilting .glare{opacity:1}
+.flip{touch-action:pan-y}
+.flip{position:relative}
+.flip-inner{z-index:1}
+.rvtext{display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
+.review.open .rvtext{display:block;-webkit-line-clamp:unset;overflow:visible}
+.rvbox{height:190px;box-sizing:border-box;overflow:hidden}
+.review.open .rvbox{height:auto}
+.rvclip{position:relative;max-height:124px;overflow:hidden;border-radius:16px}
+.rvclip::after{content:"";position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(transparent,#0F1620)}
+.review.open .rvclip{max-height:none}
+.review.open .rvclip::after{display:none}
+.rvl-close{display:none}
+.review.open .rvl-open{display:none}
+.review.open .rvl-close{display:inline}
+.review{align-self:flex-start}
+.tr-link{transition:transform .2s ease,background .2s ease}
+.tr-link:hover{background:#4A121C!important;transform:translateY(-1px)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.face.back{transform:rotateY(180deg)}
+.flip:focus-visible{outline:3px solid #6E1B2A;outline-offset:6px;border-radius:20px}
+.review{transition:transform .35s ease}
+.modal-bg{animation:fadein .25s ease both}
+.modal-card{animation:popin .35s cubic-bezier(.2,.8,.2,1.2) both}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+@keyframes popin{from{opacity:0;transform:scale(.9) translateY(20px)}to{opacity:1;transform:none}}
+.more{animation:nudge 2.4s ease-in-out infinite;transition:background .3s ease}
+@keyframes nudge{0%,70%,100%{transform:none}78%{transform:translateY(3px)}86%{transform:none}92%{transform:translateY(2px)}}
+.chev{transition:transform .35s ease}
+details[open] .chev{transform:rotate(180deg)}
+details[open] .more{animation:none}
+.acc summary:hover .more{background:#4A121C}
+.qk:hover{background:#6E1B2A!important;color:#FFFFFF!important}
+.qk .chev{animation:bob 1.8s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+.gz{animation:gz 2.4s ease-in-out infinite;box-shadow:0 14px 30px rgba(74,18,28,.18)}
+@keyframes gz{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px) scale(1.03)}}
+.dot{position:relative;display:inline-block;width:10px;height:10px;border-radius:999px;background:#6E1B2A;margin-right:8px;vertical-align:middle}
+.dot::after{content:"";position:absolute;inset:0;border-radius:999px;background:#6E1B2A;animation:ping 1.6s ease-out infinite;will-change:transform,opacity}
+@keyframes ping{0%{transform:scale(1);opacity:.6}100%{transform:scale(3);opacity:0}}
+.hz-fast{animation:hzf 2.2s ease-in-out infinite!important}
+@keyframes hzf{0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(-22px) rotate(-10deg)}50%{transform:translateY(0) rotate(0)}75%{transform:translateY(-12px) rotate(8deg)}}
+.wiggle{animation:wiggle 3.5s ease-in-out infinite}
+@keyframes wiggle{0%,82%,100%{transform:none}85%{transform:rotate(-3deg) scale(1.05)}88%{transform:rotate(3deg) scale(1.05)}91%{transform:rotate(-2deg) scale(1.03)}94%{transform:none}}
+.hz{position:absolute;opacity:.07;animation:hz 14s ease-in-out infinite;will-change:transform}
+.hz.bg{opacity:.06}
+@keyframes hz{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-26px) rotate(8deg)}}
+.shine{position:relative;overflow:hidden}
+.shine::after{content:"";position:absolute;top:0;left:0;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-150%);animation:shine 3.2s ease-in-out infinite;will-change:transform;pointer-events:none}
+@keyframes shine{0%,60%{transform:translateX(-150%)}100%{transform:translateX(330%)}}
+.about-btn{transition:transform .25s ease}
+.about-btn:hover{transform:translateY(-3px) scale(1.01)}
+.aboutd .plus{transition:transform .35s ease}
+.aboutd[open] .plus{transform:rotate(45deg)}
+.aboutd[open] .ans{animation:rise .5s ease both}
+
+.rv-track{display:flex;gap:20px;width:max-content;align-items:flex-start}
+.rv-wrap::-webkit-scrollbar{display:none}
+.rv-track > *{margin-right:0}
+@keyframes rv{from{transform:translateX(0)}to{transform:translateX(calc(-50% - 10px))}}
+/* Компьютер и iPad горизонтально: фото слева, текст справа */
+@media (min-width:1101px){
+.hero{flex-wrap:nowrap!important;gap:64px!important;padding-top:24px!important}
+.hero > .rise[style*="order: -1"]{flex:0 0 340px!important}
+.hero .float[style*="max-width: 260px"]{max-width:320px!important}
+.hero-text h1{font-size:clamp(30px,3vw,40px)!important}
+.courses-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+}
+/* iPad вертикально: всё по центру столбиком */
+@media (min-width:601px) and (max-width:1100px){
+.hero{flex-direction:column!important;align-items:center!important;gap:28px!important}
+.hero-text{align-items:center!important;text-align:center!important;width:100%;max-width:760px}
+.hero-text h1{text-align:center!important;white-space:normal!important;font-size:38px!important}
+.hero-text .lead{text-align:center!important;max-width:640px!important}
+.hero-text > div[style*="align-self: flex-start"],.hero-text > div.rise:first-child{align-self:center!important}
+.chips{width:100%;max-width:720px!important;grid-template-columns:repeat(4,minmax(0,1fr))!important}
+.hero .float[style*="max-width: 260px"]{max-width:300px!important}
+.courses-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:16px!important}
+.courses-grid .card{padding:22px!important}
+}
+/* Телефон */
+@media (max-width:600px){
+.chips{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.hero-text .lead{text-align:left!important}
+}
+.fab{display:none}
+@media (max-width:700px){.fab{display:inline-flex}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="" style="background: #F6EFE6; color: #2A1A1D; font-family: Manrope, system-ui, sans-serif; font-size: 17px; font-weight: 500; line-height: 1.6; overflow-x: hidden; text-align: left; hyphens: manual; overflow-wrap: normal; word-break: normal">
+
+<div aria-hidden="true" style="position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; font-family: 'Noto Serif SC', serif; color: #6E1B2A">
+<span class="hz bg" style="left: 4%; top: 10%; font-size: 54px; animation-delay: -0.0s">爱</span>
+<span class="hz bg" style="left: 22%; top: 34%; font-size: 40px; animation-delay: -1.3s">梦</span>
+<span class="hz bg" style="left: 10%; top: 64%; font-size: 60px; animation-delay: -2.6s">福</span>
+<span class="hz bg" style="left: 30%; top: 90%; font-size: 48px; animation-delay: -3.9s">龙</span>
+<span class="hz bg" style="left: 88%; top: 16%; font-size: 46px; animation-delay: -5.2s">茶</span>
+<span class="hz bg" style="left: 78%; top: 48%; font-size: 40px; animation-delay: -6.5s">月</span>
+<span class="hz bg" style="left: 93%; top: 80%; font-size: 58px; animation-delay: -7.8s">山</span>
+<span class="hz bg" style="left: 55%; top: 24%; font-size: 36px; animation-delay: -9.1s">水</span>
+<span class="hz bg" style="left: 64%; top: 94%; font-size: 44px; animation-delay: -10.4s">心</span>
+<span class="hz bg" style="left: 42%; top: 58%; font-size: 34px; animation-delay: -11.7s">笑</span>
+<span class="hz bg" style="left: 70%; top: 6%; font-size: 42px; animation-delay: -13.0s">飞</span>
+<span class="hz bg" style="left: 14%; top: 96%; font-size: 38px; animation-delay: -14.3s">光</span>
+<span class="hz bg" style="left: 50%; top: 76%; font-size: 50px; animation-delay: -15.6s">春</span>
+<span class="hz bg" style="left: 84%; top: 32%; font-size: 34px; animation-delay: -16.9s">路</span>
+<span class="hz bg" style="left: 36%; top: 4%; font-size: 44px; animation-delay: -18.2s">好</span>
+<span class="hz bg" style="left: 2%; top: 40%; font-size: 38px; animation-delay: -19.5s">梅</span>
+</div>
+<header style="max-width: 1160px; margin: 0 auto; padding: 20px 24px 8px; display: flex; flex-direction: column; gap: 22px; align-items: center">
+<nav aria-label="Разделы сайта" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; width: 100%; max-width: 560px; box-sizing: border-box; padding: 6px; border-radius: 22px; background: #FFFFFF; box-shadow: 0 10px 30px rgba(74,18,28,.12); border: 1px solid #E3CFCB">
+<button type="button" class="tab" data-action="goTutor" aria-pressed="true" data-tab="tutor"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Репетитор<br>китайского языка</span></button>
+<button type="button" class="tab" data-action="goTranslator" aria-pressed="false" data-tab="translator"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg><span>Переводчик<br>с китайского языка</span></button>
+</nav>
+<div style="display: flex; align-items: center; gap: 14px; padding-bottom: 6px"><div style="text-align: center; line-height: 1.25"><div style="font-size: 26px; font-weight: 800; letter-spacing: -0.5px; color: #6E1B2A">Петрова Ирина</div><div style="margin-top: 4px; font-family: 'Noto Serif SC', serif; font-size: 14px; color: #6A5256">伊琳娜 Yīlínnà</div></div></div>
+</header>
+
+<div id="page-tutor" class="page">
+<div class="page-in">
+<section class="hero" style="position: relative; max-width: 1160px; margin: 0 auto; padding: 12px 24px 36px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div aria-hidden="true" style="position: absolute; inset: 0; overflow: hidden; pointer-events: none; font-family: 'Noto Serif SC', serif; color: #6E1B2A">
+<span class="hz" style="left: 4%; top: 8%; font-size: 64px; animation-delay: 0s">学</span>
+<span class="hz" style="left: 46%; top: 2%; font-size: 40px; animation-delay: -4s">中</span>
+<span class="hz" style="left: 58%; top: 70%; font-size: 72px; animation-delay: -8s">文</span>
+<span class="hz" style="left: 92%; top: 14%; font-size: 52px; animation-delay: -2s">你</span>
+<span class="hz" style="left: 88%; top: 78%; font-size: 44px; animation-delay: -6s">好</span>
+<span class="hz" style="left: 30%; top: 86%; font-size: 36px; animation-delay: -10s">字</span>
+</div>
+<div class="hero-text" style="position: relative; flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<h1 class="rise d1" style="margin: 0; font-weight: 800; letter-spacing: -0.8px; font-size: clamp(21px, 5.6vw, 38px); line-height: 1.15; white-space: nowrap; color: #2A1A1D">Занятия по <span class="ink" style="color: #6E1B2A">китайскому языку</span></h1>
+<p class="rise d2 lead" style="margin: 0; font-size: 16px; font-weight: 500; color: #5E474B; max-width: 600px; text-align: left">Китайский онлайн для жизни в Китае, HSK, учёбы, работы и поступления в&nbsp;университет. Индивидуально и&nbsp;в&nbsp;группе, в&nbsp;Zoom.</p>
+<div class="rise d3 chips" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; max-width: 620px">
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">3+ года</div><div style="font-size: 14px; color: #5E474B">преподаю китайский</div></div>
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">HSK 5</div><div style="font-size: 14px; color: #5E474B">сертификат, 2024</div></div>
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">4-й год</div><div style="font-size: 14px; color: #5E474B">живу в Китае</div></div>
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">70+</div><div style="font-size: 14px; color: #5E474B">учеников по всему миру</div></div>
+</div>
+<div class="rise d4" style="align-self: center; width: 100%; max-width: 340px; display: flex; flex-direction: column; gap: 10px">
+<a class="btn pulse rise d4" href="#courses" data-action="toCourses" style="box-sizing: border-box; width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 58px; padding: 0 24px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 18px">Занятия и цены <span aria-hidden="true">→</span></a>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+<a class="btn qk" href="#about" data-action="toAbout" style="box-sizing: border-box; width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px; padding: 0 18px; border-radius: 999px; background: #FFFFFF; border: 2px solid #6E1B2A; color: #6E1B2A; text-decoration: none; font-weight: 700; font-size: 15px">Обо мне<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+<a class="btn qk" href="#reviews" data-action="toReviews" style="box-sizing: border-box; width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px; padding: 0 18px; border-radius: 999px; background: #FFFFFF; border: 2px solid #6E1B2A; color: #6E1B2A; text-decoration: none; font-weight: 700; font-size: 15px">Отзывы<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+</div>
+
+</div>
+</div>
+<div class="rise" style="order: -1; flex: 1 1 340px; min-width: 0; display: flex; justify-content: center">
+<div class="float" style="position: relative; width: 100%; max-width: 260px; aspect-ratio: 3 / 4; border-radius: 130px 130px 22px 22px; overflow: hidden; border: 6px solid #FFFFFF; box-shadow: 0 30px 60px rgba(74,18,28,.18); box-sizing: border-box">
+<img src="photo-magnolia.jpg" alt="Ирина Петрова, репетитор китайского" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block">
+<div class="gz" style="position: absolute; left: 12px; right: 12px; bottom: 12px; padding: 10px 12px; border-radius: 16px; background: #FFFFFF; border: 2px solid #6E1B2A; display: flex; align-items: center; justify-content: center; gap: 10px">
+<span style="font-family: 'Noto Serif SC', serif; font-size: 22px; font-weight: 700; color: #6E1B2A"><span class="dot" aria-hidden="true"></span>广州</span>
+<span style="font-size: 13px; color: #6A5256; line-height: 1.25; text-align: left">Guǎngzhōu<br>живу здесь</span>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background: rgba(255,255,255,.72)">
+<div style="max-width: 1000px; margin: 0 auto; padding: 40px 24px; display: flex; flex-direction: column; gap: 28px">
+<div class="reveal" style="text-align: center; display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-weight: 800; letter-spacing: -0.8px; font-size: 38px; line-height: 1.12; color: #2A1A1D">Занятия для тех, кто хочет</h2>
+<p style="margin: 0; color: #6A5256">Нажмите на цель, чтобы узнать, как мы будем к ней идти</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px; align-items: start">
+<details class="acc reveal" style="border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; gap: 12px; padding: 14px 16px">
+<span style="flex: none; font-size: 20px; font-weight: 800; color: #6E1B2A; width: 30px">01</span>
+<span style="flex: 1 1 auto; font-size: 16px; font-weight: 700; color: #2A1A1D; line-height: 1.3">Сдать HSK</span><span class="more" style="flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; font-size: 14px; font-weight: 700; white-space: nowrap">Подробнее<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+<p class="ans" style="margin: 0; padding: 0 16px 16px 58px; color: #5E474B; font-size: 15px">Разбираем формат экзамена и задания каждой части, учим лексику уровня, тренируем аудирование, чтение и письмо на реальных вариантах.</p>
+</details>
+<details class="acc reveal" style="border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; gap: 12px; padding: 14px 16px">
+<span style="flex: none; font-size: 20px; font-weight: 800; color: #6E1B2A; width: 30px">02</span>
+<span style="flex: 1 1 auto; font-size: 16px; font-weight: 700; color: #2A1A1D; line-height: 1.3">Поступить в университет</span><span class="more" style="flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; font-size: 14px; font-weight: 700; white-space: nowrap">Подробнее<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+<p class="ans" style="margin: 0; padding: 0 16px 16px 58px; color: #5E474B; font-size: 15px">Подтягиваем язык до нужного уровня HSK и готовимся к учёбе на китайском. Я сама училась в Пекине и знаю, что ждёт студента.</p>
+</details>
+<details class="acc reveal" style="border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; gap: 12px; padding: 14px 16px">
+<span style="flex: none; font-size: 20px; font-weight: 800; color: #6E1B2A; width: 30px">03</span>
+<span style="flex: 1 1 auto; font-size: 16px; font-weight: 700; color: #2A1A1D; line-height: 1.3">Вести дела с китайскими партнёрами</span><span class="more" style="flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; font-size: 14px; font-weight: 700; white-space: nowrap">Подробнее<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+<p class="ans" style="margin: 0; padding: 0 16px 16px 58px; color: #5E474B; font-size: 15px">Переписка с поставщиками, переговоры, деловая лексика и этикет — чтобы общаться с партнёрами напрямую.</p>
+</details>
+<details class="acc reveal" style="border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; gap: 12px; padding: 14px 16px">
+<span style="flex: none; font-size: 20px; font-weight: 800; color: #6E1B2A; width: 30px">04</span>
+<span style="flex: 1 1 auto; font-size: 16px; font-weight: 700; color: #2A1A1D; line-height: 1.3">Жить в Китае без переводчика</span><span class="more" style="flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; font-size: 14px; font-weight: 700; white-space: nowrap">Подробнее<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+<p class="ans" style="margin: 0; padding: 0 16px 16px 58px; color: #5E474B; font-size: 15px">Магазины, такси, врач, аренда, общение с соседями и коллегами — китайский, который нужен каждый день.</p>
+</details>
+<details class="acc reveal" style="border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; gap: 12px; padding: 14px 16px">
+<span style="flex: none; font-size: 20px; font-weight: 800; color: #6E1B2A; width: 30px">05</span>
+<span style="flex: 1 1 auto; font-size: 16px; font-weight: 700; color: #2A1A1D; line-height: 1.3">Заговорить на живом китайском, а не фразами из учебника</span><span class="more" style="flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; font-size: 14px; font-weight: 700; white-space: nowrap">Подробнее<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+<p class="ans" style="margin: 0; padding: 0 16px 16px 58px; color: #5E474B; font-size: 15px">Учим выражения, которые китайцы правда используют, ставим тоны и снимаем страх говорить.</p>
+</details>
+</div>
+</div>
+</section>
+
+<section id="about" style="max-width: 1160px; margin: 0 auto; padding: 40px 24px; display: flex; flex-direction: column; gap: 28px; align-items: center">
+<details class="aboutd reveal" style="width: 100%; max-width: 760px">
+<summary class="about-btn" style="display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 999px; background: #6E1B2A; box-shadow: 0 16px 36px rgba(110,27,42,.28)"><span class="more shine" style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; gap: 14px; min-height: 64px; padding: 0 24px; border-radius: 999px; background: #FFFFFF; color: #6E1B2A; font-size: 22px; font-weight: 800"><span style="font-family: 'Noto Serif SC', serif; font-size: 26px; white-space: nowrap">关于我</span><span style="white-space: nowrap">Обо мне</span><svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+<div class="ans" style="margin-top: 14px; padding: 26px; border-radius: 24px; background: #FFFFFF; border: 1.5px solid #E3CFCB; display: flex; flex-direction: column; gap: 14px; color: #4E3A3E">
+<p style="margin: 0">Меня зовут Петрова Ирина, я преподаю китайский уже более 3 лет.</p>
+<p style="margin: 0">У меня два высших образования, а в 2024 году я сама сдала экзамен HSK 5.</p>
+<p style="margin: 0">Четвёртый год я живу в Китае — сейчас переехала из Пекина в Гуанчжоу. Китайский для меня — язык, на котором я каждый день общаюсь, учусь и решаю бытовые вопросы.</p>
+<p style="margin: 0">У меня никогда не было особой предрасположенности к языкам, и вообще я считаю, что у меня математический склад ума.</p>
+<p style="margin: 0">Но жизнь — интересная штука, поэтому теперь я преподаю китайский.</p>
+<p style="margin: 0; font-size: 14px; color: #8A7276; font-style: italic">P.S. Честно, я до сих пор в шоке, что решаю бытовые вопросы на китайском: недавно сама позвонила в стоматологию и записалась на приём из-за своего проблемного зуба мудрости.</p>
+<p style="margin: 0">А ещё я <button type="button" class="tr-link" data-action="goTranslatorTop" style="all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 4px; padding: 1px 12px 2px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; font-weight: 700; line-height: 1.5">переводчик<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></button> и много занимаюсь спортом.</p>
+</div>
+</details>
+<div class="reveal" style="text-align: center; display: flex; flex-direction: column; gap: 4px; margin-top: 8px">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.3px">Дипломы двух университетов</h3>
+</div>
+<div class="reveal" style="display: flex; flex-wrap: nowrap; gap: 20px; justify-content: center; width: 100%; max-width: 580px">
+<div style="flex: 1 1 0; max-width: 270px; min-width: 0; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<button type="button" class="flip" data-flip="A" data-action="flipAToggle" aria-label="Перевернуть карточку: Москва, 2025" style="all: unset; position: relative; cursor: pointer; display: block; width: 100%; aspect-ratio: 3 / 4.3">
+<span class="flip-inner" style="display: block; position: relative; width: 100%; height: 100%">
+<span class="face" style="position: absolute; inset: 0; display: flex; flex-direction: column; background: #FFFFFF; padding: 10px 10px 14px; border-radius: 20px; box-shadow: 0 20px 44px rgba(74,18,28,.16); box-sizing: border-box">
+<img src="diploma-moscow.jpg" alt="Ирина с дипломом Российского университета транспорта" style="width: 100%; flex: 1 1 auto; min-height: 0; object-fit: cover; object-position: center 25%; border-radius: 14px; display: block">
+<span style="padding-top: 10px; text-align: center; font-size: 14px; color: #5E474B"><b style="color: #2A1A1D">Москва, 2025</b><br>Российский университет транспорта</span>
+<span class="glare" aria-hidden="true"></span>
+</span>
+<span class="face back" style="position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 8px; background: #6E1B2A; color: #FFFFFF; padding: 18px; overflow: hidden; border-radius: 20px; box-sizing: border-box; text-align: left">
+
+<span style="font-size: 16px; font-weight: 800; line-height: 1.3">Российский университет транспорта</span>
+<p style="margin: 0; color: #F0DEDF; font-size: 13px; line-height: 1.45; text-align: left">Москва · выпуск 2025</p>
+<p style="margin: 0; color: #F0DEDF; font-size: 13px; line-height: 1.45; text-align: left">Специальность: технология транспортных процессов</p>
+</span>
+</span>
+</button>
+</div>
+<div style="flex: 1 1 0; max-width: 270px; min-width: 0; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<button type="button" class="flip" data-flip="B" data-action="flipBToggle" aria-label="Перевернуть карточку: Пекин, 2026" style="all: unset; position: relative; cursor: pointer; display: block; width: 100%; aspect-ratio: 3 / 4.3">
+<span class="flip-inner" style="display: block; position: relative; width: 100%; height: 100%">
+<span class="face" style="position: absolute; inset: 0; display: flex; flex-direction: column; background: #FFFFFF; padding: 10px 10px 14px; border-radius: 20px; box-shadow: 0 20px 44px rgba(74,18,28,.16); box-sizing: border-box">
+<img src="diploma-beijing.jpg" alt="Ирина с дипломом Пекинского транспортного университета" style="width: 100%; flex: 1 1 auto; min-height: 0; object-fit: cover; object-position: center 72%; border-radius: 14px; display: block">
+<span style="padding-top: 10px; text-align: center; font-size: 14px; color: #5E474B"><b style="color: #2A1A1D">Пекин, 2026</b><br>北京交通大学 Běijīng Jiāotōng Dàxué</span>
+<span class="glare" aria-hidden="true"></span>
+</span>
+<span class="face back" style="position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 8px; background: #6E1B2A; color: #FFFFFF; padding: 18px; overflow: hidden; border-radius: 20px; box-sizing: border-box; text-align: left">
+
+<span style="font-size: 16px; font-weight: 800; line-height: 1.3">Пекинский транспортный университет</span>
+<p style="margin: 0; color: #F0DEDF; font-size: 13px; line-height: 1.45; text-align: left">北京交通大学 Běijīng Jiāotōng Dàxué</p>
+<p style="margin: 0; color: #F0DEDF; font-size: 13px; line-height: 1.45; text-align: left">Пекин · выпуск 2026</p>
+<p style="margin: 0; color: #F0DEDF; font-size: 13px; line-height: 1.45; text-align: left">Специальность: логистика · 物流 wùliú</p>
+</span>
+</span>
+</button>
+</div>
+</div>
+</section>
+
+<section id="reviews" style="background: rgba(255,255,255,.72)">
+<div style="max-width: 1160px; margin: 0 auto; padding: 32px 24px 8px; display: flex; flex-direction: column; gap: 18px">
+<div class="reveal" style="display: flex; flex-direction: column; gap: 14px; align-items: center; text-align: center">
+<h2 style="margin: 0; font-weight: 800; letter-spacing: -0.8px; font-size: 38px; line-height: 1.12; color: #2A1A1D">Отзывы учеников</h2>
+
+</div>
+<div class="rv-wrap" style="overflow-x: auto; overflow-y: hidden; padding: 8px 24px 20px; margin: 0 -24px; -webkit-overflow-scrolling: touch; scrollbar-width: none; cursor: grab">
+<div class="rv-track">
+<figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; flex-direction: column; justify-content: space-between"><div class="rvclip"><img src="review-5.jpg" alt="Отзыв ученика: занимаюсь 6 месяцев, помогла система тонов через квадраты, с первого урока говорим, учит живому китайскому" width="800" height="984" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div><button type="button" class="rvmore" data-action="toggleRev" style="all: unset; cursor: pointer; margin-top: 8px; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: #2B3A4D; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 700; font-size: 13px"><span class="rvl-open">Читать целиком</span><span class="rvl-close">Свернуть</span></button></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; align-items: center; justify-content: center"><img src="review-1.jpg" alt="Отзыв ученика: «Мне прям зашло, если честно. Понятнее всё намного»" width="1249" height="380" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Китайский для жизни</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; align-items: center; justify-content: center"><img src="review-2.png" alt="Отзыв: «Огромное спасибо за отличную работу, будем договариваться с клиентом о расширении количества групп»" width="1185" height="400" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Занятия в группе</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; flex-direction: column; justify-content: space-between"><div class="rvclip"><img src="review-3.jpg" alt="Отзыв ученицы: с удовольствием жду урока, вижу прогресс, материалы классные, комфорт и чувство безопасности на уроках" width="800" height="1251" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div><button type="button" class="rvmore" data-action="toggleRev" style="all: unset; cursor: pointer; margin-top: 8px; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: #2B3A4D; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 700; font-size: 13px"><span class="rvl-open">Читать целиком</span><span class="rvl-close">Свернуть</span></button></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #FFFFFF; border: 1.5px solid #E3CFCB; display: flex; align-items: center; justify-content: center"><img src="review-4.jpg" alt="Отзыв ученика: «Ирина прекрасный преподаватель… свободно говорит на китайском, очень мотивирует… Очень рекомендую»" width="1086" height="238" loading="lazy" style="width: 100%; height: auto; display: block"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure>
+<figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; flex-direction: column; justify-content: space-between"><div class="rvclip"><img src="review-5.jpg" alt="Отзыв ученика: занимаюсь 6 месяцев, помогла система тонов через квадраты, с первого урока говорим, учит живому китайскому" width="800" height="984" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div><button type="button" class="rvmore" data-action="toggleRev" style="all: unset; cursor: pointer; margin-top: 8px; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: #2B3A4D; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 700; font-size: 13px"><span class="rvl-open">Читать целиком</span><span class="rvl-close">Свернуть</span></button></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; align-items: center; justify-content: center"><img src="review-1.jpg" alt="Отзыв ученика: «Мне прям зашло, если честно. Понятнее всё намного»" width="1249" height="380" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Китайский для жизни</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; align-items: center; justify-content: center"><img src="review-2.png" alt="Отзыв: «Огромное спасибо за отличную работу, будем договариваться с клиентом о расширении количества групп»" width="1185" height="400" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Занятия в группе</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; flex-direction: column; justify-content: space-between"><div class="rvclip"><img src="review-3.jpg" alt="Отзыв ученицы: с удовольствием жду урока, вижу прогресс, материалы классные, комфорт и чувство безопасности на уроках" width="800" height="1251" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div><button type="button" class="rvmore" data-action="toggleRev" style="all: unset; cursor: pointer; margin-top: 8px; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: #2B3A4D; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 700; font-size: 13px"><span class="rvl-open">Читать целиком</span><span class="rvl-close">Свернуть</span></button></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #FFFFFF; border: 1.5px solid #E3CFCB; display: flex; align-items: center; justify-content: center"><img src="review-4.jpg" alt="Отзыв ученика: «Ирина прекрасный преподаватель… свободно говорит на китайском, очень мотивирует… Очень рекомендую»" width="1086" height="238" loading="lazy" style="width: 100%; height: auto; display: block"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure>
+<figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; flex-direction: column; justify-content: space-between"><div class="rvclip"><img src="review-5.jpg" alt="Отзыв ученика: занимаюсь 6 месяцев, помогла система тонов через квадраты, с первого урока говорим, учит живому китайскому" width="800" height="984" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div><button type="button" class="rvmore" data-action="toggleRev" style="all: unset; cursor: pointer; margin-top: 8px; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: #2B3A4D; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 700; font-size: 13px"><span class="rvl-open">Читать целиком</span><span class="rvl-close">Свернуть</span></button></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; align-items: center; justify-content: center"><img src="review-1.jpg" alt="Отзыв ученика: «Мне прям зашло, если честно. Понятнее всё намного»" width="1249" height="380" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Китайский для жизни</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; align-items: center; justify-content: center"><img src="review-2.png" alt="Отзыв: «Огромное спасибо за отличную работу, будем договариваться с клиентом о расширении количества групп»" width="1185" height="400" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Занятия в группе</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #0F1620; display: flex; flex-direction: column; justify-content: space-between"><div class="rvclip"><img src="review-3.jpg" alt="Отзыв ученицы: с удовольствием жду урока, вижу прогресс, материалы классные, комфорт и чувство безопасности на уроках" width="800" height="1251" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 16px"></div><button type="button" class="rvmore" data-action="toggleRev" style="all: unset; cursor: pointer; margin-top: 8px; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: #2B3A4D; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 700; font-size: 13px"><span class="rvl-open">Читать целиком</span><span class="rvl-close">Свернуть</span></button></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure><figure class="card review" style="margin: 0; flex: 0 0 320px; padding: 14px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 26px rgba(74,18,28,.08)">
+<div aria-hidden="true" style="display: flex; gap: 3px; color: #6E1B2A; font-size: 16px; letter-spacing: 1px">★★★★★</div>
+<div class="rvbox" style="padding: 12px; border-radius: 22px; background: #FFFFFF; border: 1.5px solid #E3CFCB; display: flex; align-items: center; justify-content: center"><img src="review-4.jpg" alt="Отзыв ученика: «Ирина прекрасный преподаватель… свободно говорит на китайском, очень мотивирует… Очень рекомендую»" width="1086" height="238" loading="lazy" style="width: 100%; height: auto; display: block"></div>
+<figcaption style="align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 13px">Индивидуальные занятия</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1160px; margin: 0 auto; padding: 40px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div class="reveal" style="flex: 1 1 420px; min-width: 0">
+<div class="photo-zoom" style="border-radius: 120px 32px 120px 32px; overflow: hidden; box-shadow: 0 24px 50px rgba(74,18,28,.16)">
+<img src="photo-cafe.jpg" alt="Ирина готовится к уроку в кафе: планшет и тетрадь с иероглифами" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block">
+</div>
+</div>
+<div class="reveal" style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-weight: 800; letter-spacing: -0.8px; font-size: 38px; line-height: 1.12; color: #2A1A1D">Как проходят занятия</h2>
+<div style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 34px; height: 34px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span><b>60 минут в Zoom</b> — из любой точки мира, в удобное время</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 34px; height: 34px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span><b>Индивидуально или в группе</b> — вдвоём или 3–4 человека</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 34px; height: 34px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span><b>Программа под вашу цель</b> — жизнь в Китае, HSK, поступление или работа</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 34px; height: 34px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span><b>Авторские презентации</b> к урокам, иероглифы всегда с пиньинем и тонами</span></div>
+</div>
+</section>
+
+<section id="courses" style="background: rgba(255,255,255,.72)">
+<div style="max-width: 1160px; margin: 0 auto; padding: 40px 24px; display: flex; flex-direction: column; gap: 32px">
+<div class="reveal" style="text-align: center; display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-weight: 800; letter-spacing: -0.8px; font-size: 38px; line-height: 1.12; color: #2A1A1D">Занятия и цены</h2>
+<p style="margin: 0; color: #6A5256">Занятия покупаются абонементом на месяц · урок 60 минут в Zoom</p>
+</div>
+<div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; align-items: start">
+<div class="card reveal" style="padding: 30px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: baseline; gap: 10px"><span style="font-family: 'Noto Serif SC', serif; font-size: 34px; line-height: 1; color: #6E1B2A">中文</span><span style="font-size: 14px; color: #6A5256">zhōngwén · китайский</span></div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.3px">Индивидуальные занятия</h3>
+<p style="margin: 0; color: #5E474B; flex-grow: 1">Китайский для жизни, подготовка к HSK и поступлению в вуз Китая — программа под вашу цель.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 14px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 14px"><span style="font-family: 'Noto Serif SC', serif">生活</span> shēnghuó</span>
+<span style="padding: 6px 14px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 14px"><span style="font-family: 'Noto Serif SC', serif">考试</span> kǎoshì</span>
+<span style="padding: 6px 14px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 14px"><span style="font-family: 'Noto Serif SC', serif">大学</span> dàxué</span>
+</div>
+<div><div style="display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid #EFE2DE"><span style="color: #5E474B">Абонемент: 8 занятий в месяц</span><span style="font-weight: 800; color: #2A1A1D; white-space: nowrap">16 000 ₽</span></div>
+<div style="display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid #EFE2DE"><span style="color: #5E474B">Абонемент: 12 занятий в месяц</span><span style="font-weight: 800; color: #2A1A1D; white-space: nowrap">24 000 ₽</span></div></div>
+<a class="btn" href="https://t.me/Irinkapetrovaa?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%BC%D1%83%2C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5." style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>Записаться</a>
+</div>
+<div class="card reveal" style="padding: 30px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: baseline; gap: 10px"><span style="font-family: 'Noto Serif SC', serif; font-size: 34px; line-height: 1; color: #6E1B2A">商务</span><span style="font-size: 14px; color: #6A5256">shāngwù · бизнес</span></div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.3px">Бизнес-китайский</h3>
+<p style="margin: 0; color: #5E474B; flex-grow: 1">Переговоры, переписка с поставщиками, деловая лексика и этикет.</p>
+<div><div style="display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid #EFE2DE"><span style="color: #5E474B">Занятие</span><span style="font-weight: 800; color: #2A1A1D; white-space: nowrap">3 000 ₽</span></div></div>
+<a class="btn" href="https://t.me/Irinkapetrovaa?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%BC%2C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5." style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>Записаться</a>
+</div>
+<div class="card reveal" style="padding: 30px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: baseline; gap: 10px"><span style="font-family: 'Noto Serif SC', serif; font-size: 34px; line-height: 1; color: #6E1B2A">一起</span><span style="font-size: 14px; color: #6A5256">yìqǐ · вместе</span></div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.3px">Занятия в группе</h3>
+<p style="margin: 0; color: #5E474B; flex-grow: 1">Можно заниматься вдвоём или в группе на 3–4 человека.</p>
+<div><div style="display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid #EFE2DE"><span style="color: #5E474B">8 занятий в месяц, с человека</span><span style="font-weight: 800; color: #2A1A1D; white-space: nowrap">10 000 ₽</span></div></div>
+<a class="btn" href="https://t.me/Irinkapetrovaa?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%B2%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B5%2C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5." style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>Записаться</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contacts" style="max-width: 1160px; margin: 0 auto; padding: 40px 24px 64px">
+<div class="reveal" style="position: relative; overflow: hidden; padding: 44px 28px; border-radius: 32px; background: #6E1B2A; color: #FFFFFF; display: flex; flex-direction: column; gap: 18px; align-items: center; text-align: center; box-shadow: 0 24px 60px rgba(74,18,28,.3)">
+<span aria-hidden="true" class="hz hz-fast" style="left: 5%; top: 10%; font-size: 70px; color: #FFFFFF; opacity: .18">学</span>
+<span aria-hidden="true" class="hz hz-fast" style="left: 85%; top: 55%; font-size: 90px; color: #FFFFFF; opacity: .18; animation-delay: -1s">吧</span>
+<div class="float" style="position: relative; width: 150px; height: 150px; border-radius: 999px; overflow: hidden; border: 5px solid #FFFFFF; box-shadow: 0 14px 30px rgba(0,0,0,.25)"><img src="photo-shanghai.jpg" alt="Ирина на набережной Шанхая вечером" width="500" height="500" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block"></div>
+<div style="position: relative; font-family: 'Noto Serif SC', serif; font-size: 44px; line-height: 1">一起学吧</div>
+<div style="position: relative; font-size: 15px; color: #F0D5D8">yìqǐ xué ba · давайте учиться вместе</div>
+<h2 style="position: relative; margin: 0; font-weight: 800; letter-spacing: -0.5px; font-size: 32px; line-height: 1.15">Записаться на занятия</h2>
+<div style="position: relative; display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 6px">
+<a class="btn shine" href="https://t.me/Irinkapetrovaa?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%BC%D1%83%2C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5." style="box-sizing: border-box; width: 320px; max-width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 60px; padding: 0 20px; border-radius: 999px; background: #FFFFFF; color: #6E1B2A; text-decoration: none; font-weight: 800; font-size: 17px; box-shadow: 0 12px 28px rgba(0,0,0,.22)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>Написать в Telegram</a>
+<button type="button" class="btn" data-action="openWx" style="all: unset; box-sizing: border-box; cursor: pointer; width: 320px; max-width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 60px; padding: 0 20px; border-radius: 999px; border: 2px solid #FFFFFF; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 800; font-size: 17px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>WeChat: i1rina</button>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+<div id="page-translator" class="page" hidden>
+<div class="page-in">
+<section class="hero" style="max-width: 1160px; margin: 0 auto; padding: 12px 24px 36px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div class="hero-text" style="flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+
+<h1 class="rise d1" style="margin: 0; font-weight: 700; letter-spacing: -0.5px; font-size: 30px; line-height: 1.25; color: #2A1A1D">Устный перевод: выставки, переговоры, командировки и заводы</h1>
+<p class="rise d2 lead" style="margin: 0; font-size: 18px; font-weight: 500; color: #5E474B; max-width: 540px">Большой опыт устного перевода: много выставок, деловые переговоры, выезды на заводы и фабрики, отраслевая лексика — от традиционной китайской медицины до золота, горной добычи и металлов.</p>
+<div class="rise d3 chips" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; max-width: 620px">
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">HSK 5</div><div style="font-size: 14px; color: #5E474B">сертификат, 2024</div></div>
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">4-й год</div><div style="font-size: 14px; color: #5E474B">живу в Китае</div></div>
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">Выставки</div><div style="font-size: 14px; color: #5E474B">и переговоры</div></div>
+<div class="chip" style="padding: 14px 12px; border-radius: 18px; background: #FFFFFF; border: 1.5px solid #E3CFCB; text-align: center"><div style="font-size: 21px; font-weight: 800; color: #6E1B2A">Отраслевой</div><div style="font-size: 14px; color: #5E474B">перевод</div></div>
+</div>
+<a class="btn pulse rise d4" href="https://t.me/Irinkapetrovaa?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21%20%D0%9C%D0%BD%D0%B5%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA%20%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83." style="align-self: center; display: inline-flex; align-items: center; gap: 10px; min-height: 60px; padding: 0 40px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 18px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>Обсудить перевод</a>
+</div>
+<div class="rise" style="order: -1; flex: 1 1 340px; min-width: 0; display: flex; justify-content: center">
+<div class="float" style="position: relative; width: 100%; max-width: 260px; aspect-ratio: 3 / 4; border-radius: 130px 130px 22px 22px; overflow: hidden; border: 6px solid #FFFFFF; box-shadow: 0 30px 60px rgba(74,18,28,.18); box-sizing: border-box">
+<img src="photo-magnolia.jpg" alt="Ирина Петрова, репетитор китайского" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block">
+<div class="gz" style="position: absolute; left: 12px; right: 12px; bottom: 12px; padding: 10px 12px; border-radius: 16px; background: #FFFFFF; border: 2px solid #6E1B2A; display: flex; align-items: center; justify-content: center; gap: 10px">
+<span style="font-family: 'Noto Serif SC', serif; font-size: 22px; font-weight: 700; color: #6E1B2A"><span class="dot" aria-hidden="true"></span>广州</span>
+<span style="font-size: 13px; color: #6A5256; line-height: 1.25; text-align: left">Guǎngzhōu<br>живу здесь</span>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background: rgba(255,255,255,.72)">
+<div style="max-width: 900px; margin: 0 auto; padding: 40px 24px; display: flex; flex-direction: column; gap: 16px">
+<h2 class="reveal" style="margin: 0; font-weight: 800; letter-spacing: -0.8px; font-size: 38px; line-height: 1.12; color: #2A1A1D; text-align: center; margin-bottom: 4px">Чем могу помочь</h2>
+<div class="reveal" style="display: flex; justify-content: center; margin: 4px 0 12px">
+<figure style="margin: 0; width: 100%; max-width: 240px; display: flex; flex-direction: column; gap: 8px; align-items: center">
+<div style="width: 100%; aspect-ratio: 9 / 16; border-radius: 24px; overflow: hidden; border: 5px solid #FFFFFF; box-shadow: 0 20px 44px rgba(74,18,28,.18)">
+<video class="autovid" src="factory.mp4" poster="factory-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="Ирина переводит на выезде на завод" style="width: 100%; height: 100%; object-fit: cover; display: block"></video>
+</div>
+<figcaption style="font-size: 14px; color: #6A5256; text-align: center"><span style="font-family: 'Noto Serif SC', serif; color: #6E1B2A">工厂</span> gōngchǎng · выезд на завод</figcaption>
+</figure>
+</div>
+<div class="reveal" style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 12px">
+<span class="chip" style="padding: 8px 14px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 14px"><span style="font-family: 'Noto Serif SC', serif">展会</span> zhǎnhuì · выставки</span><span class="chip" style="padding: 8px 14px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 14px"><span style="font-family: 'Noto Serif SC', serif">谈判</span> tánpàn · переговоры</span><span class="chip" style="padding: 8px 14px; border-radius: 999px; background: #F3E6E3; color: #5A1724; font-weight: 700; font-size: 14px"><span style="font-family: 'Noto Serif SC', serif">工厂</span> gōngchǎng · заводы</span>
+</div>
+<details class="acc reveal" style="border-radius: 24px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px; font-size: 18px; font-weight: 700; color: #2A1A1D">Выставки<span class="plus" aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 999px; background: #F3E6E3; color: #6E1B2A; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; line-height: 1">+</span></summary>
+<p class="ans" style="margin: 0; padding: 0 24px 22px; color: #5E474B">Работала на многих выставках, в том числе на Кантонской ярмарке: общение со стендами, уточнение цен, условий и образцов.</p>
+</details>
+<details class="acc reveal" style="border-radius: 24px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px; font-size: 18px; font-weight: 700; color: #2A1A1D">Переговоры и деловые встречи<span class="plus" aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 999px; background: #F3E6E3; color: #6E1B2A; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; line-height: 1">+</span></summary>
+<p class="ans" style="margin: 0; padding: 0 24px 22px; color: #5E474B">Перевожу на встречах и созвонах с китайскими поставщиками и партнёрами, помогаю договориться о деталях сделки.</p>
+</details>
+<details class="acc reveal" style="border-radius: 24px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px; font-size: 18px; font-weight: 700; color: #2A1A1D">Командировки, заводы и фабрики<span class="plus" aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 999px; background: #F3E6E3; color: #6E1B2A; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; line-height: 1">+</span></summary>
+<p class="ans" style="margin: 0; padding: 0 24px 22px; color: #5E474B">Выезжаю с вами на производства, сопровождаю в командировках по Китаю и по России.</p>
+</details>
+<details class="acc reveal" style="border-radius: 24px; background: #FFFFFF; border: 1.5px solid #E3CFCB">
+<summary style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px; font-size: 18px; font-weight: 700; color: #2A1A1D">Отраслевой перевод<span class="plus" aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 999px; background: #F3E6E3; color: #6E1B2A; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; line-height: 1">+</span></summary>
+<p class="ans" style="margin: 0; padding: 0 24px 22px; color: #5E474B">Есть опыт перевода в традиционной китайской медицине, золотодобыче и горной добыче, металлургии.</p>
+</details>
+</div>
+</section>
+
+<section id="contacts" style="max-width: 760px; margin: 0 auto; padding: 40px 24px 72px">
+<div class="reveal" style="padding: 32px; border-radius: 28px; background: #FFFFFF; border: 1.5px solid #E3CFCB; display: flex; flex-direction: column; gap: 18px; align-items: center; text-align: center">
+<h2 style="margin: 0; font-weight: 800; letter-spacing: -0.8px; font-size: 38px; line-height: 1.12; color: #2A1A1D; font-size: 30px">Обсудить перевод</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center">
+<a class="btn" href="https://t.me/Irinkapetrovaa?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21%20%D0%9C%D0%BD%D0%B5%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA%20%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83." style="box-sizing: border-box; width: 260px; max-width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 56px; padding: 0 20px; border-radius: 999px; background: #6E1B2A; border: 2px solid #6E1B2A; color: #FFFFFF; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>Telegram</a>
+<button type="button" class="btn" data-action="openWx" style="all: unset; box-sizing: border-box; cursor: pointer; width: 260px; max-width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 56px; padding: 0 20px; border-radius: 999px; border: 2px solid #6E1B2A; color: #6E1B2A; font-family: Manrope, sans-serif; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>WeChat: i1rina</button>
+
+</div>
+</div>
+</section>
+</div>
+</div>
+
+<div id="wx-modal" hidden>
+<div class="modal-bg" role="dialog" aria-modal="true" aria-label="QR-код WeChat" data-action="closeWx" style="position: fixed; inset: 0; z-index: 100; background: rgba(42,26,29,.6); display: flex; align-items: center; justify-content: center; padding: 20px">
+<div class="modal-card" style="position: relative; width: 100%; max-width: 340px; padding: 22px; border-radius: 28px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center; box-shadow: 0 30px 80px rgba(0,0,0,.35)">
+<div style="font-size: 20px; font-weight: 800; color: #2A1A1D">Добавьте меня в WeChat</div>
+<img src="wechat-qr.png" alt="QR-код для добавления Ирины в WeChat, ID i1rina" width="564" height="828" style="width: 100%; max-width: 260px; height: auto; display: block">
+<div style="font-size: 15px; color: #5E474B">Или найдите по ID: <b style="color: #2A1A1D">i1rina</b></div>
+<button type="button" data-action="closeWx" style="all: unset; box-sizing: border-box; cursor: pointer; min-height: 48px; padding: 0 28px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; font-family: Manrope, sans-serif; font-weight: 700; display: inline-flex; align-items: center">Закрыть</button>
+</div>
+</div>
+</div>
+
+<footer style="border-top: 1px solid #E3CFCB">
+<div style="max-width: 1160px; margin: 0 auto; padding: 26px 24px 96px; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; color: #6A5256; font-size: 14px">
+<div>© Петрова Ирина · китайский язык</div>
+<div><span style="font-family: 'Noto Serif SC', serif">加油</span> jiāyóu</div>
+</div>
+</footer>
+
+<a class="fab btn shine" href="https://t.me/Irinkapetrovaa?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%BC%D1%83%2C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5." style="position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; align-items: center; justify-content: center; gap: 10px; min-height: 56px; border-radius: 999px; background: #6E1B2A; color: #FFFFFF; text-decoration: none; font-weight: 700; box-shadow: 0 12px 30px rgba(74,18,28,.3)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>Написать в Telegram</a>
+
+</div>
+<script>
+(function () {
+  var ACCENT = '#6E1B2A';
+  var root = document.querySelector('body > div');
+  root.classList.add('js');
+  var base = 'all: unset; box-sizing: border-box; cursor: pointer; width: 100%; min-height: 52px; padding: 10px 12px; border-radius: 16px; font-family: Manrope, sans-serif; font-weight: 700; font-size: 15px; line-height: 1.2; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px;';
+  var on = base + ' background: ' + ACCENT + '; color: #FFFFFF; box-shadow: 0 6px 16px rgba(110,27,42,.3);';
+  var off = base + ' background: #F6EFE6; color: ' + ACCENT + ';';
+  function setPage(p, top) {
+    document.getElementById('page-tutor').hidden = p !== 'tutor';
+    document.getElementById('page-translator').hidden = p !== 'translator';
+    document.querySelectorAll('[data-tab]').forEach(function (b) {
+      var a = b.getAttribute('data-tab') === p;
+      b.setAttribute('style', a ? on : off);
+      b.setAttribute('aria-pressed', a ? 'true' : 'false');
+    });
+    var pg = document.getElementById('page-' + p);
+    pg.classList.remove('page-in'); void pg.offsetWidth; pg.classList.add('page-in');
+    if (top) { try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (e) { window.scrollTo(0, 0); } }
+    try { history.replaceState(null, '', p === 'translator' ? '#perevodchik' : location.pathname); } catch (e) {}
+    setTimeout(observe, 60); playVids();
+  }
+  function scrollToId(id) { var el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  var actions = {
+    goTutor: function () { setPage('tutor', true); },
+    goTranslator: function () { setPage('translator', true); },
+    goTranslatorTop: function () { setPage('translator', true); },
+    toCourses: function () { scrollToId('courses'); },
+    toAbout: function () { scrollToId('about'); },
+    toReviews: function () { scrollToId('reviews'); },
+    openWx: function () { document.getElementById('wx-modal').hidden = false; },
+    closeWx: function (e, el) { if (e.target === el) document.getElementById('wx-modal').hidden = true; },
+    toggleRev: function (e, el) { var f = el.closest('figure'); if (f) f.classList.toggle('open'); },
+    flipAToggle: function (e, el) { el.classList.toggle('flipped'); },
+    flipBToggle: function (e, el) { el.classList.toggle('flipped'); }
+  };
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-action]');
+    if (!el) return;
+    var fn = actions[el.getAttribute('data-action')];
+    if (!fn) return;
+    if (el.tagName === 'A' && el.getAttribute('href') && el.getAttribute('href').charAt(0) === '#') e.preventDefault();
+    fn(e, el);
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') document.getElementById('wx-modal').hidden = true; });
+
+  var io = null;
+  function observe() {
+    var els = Array.prototype.slice.call(document.querySelectorAll('.reveal:not(.in)'));
+    var vh = window.innerHeight || 800;
+    els.forEach(function (el) { var r = el.getBoundingClientRect(); if (r.top < vh && r.bottom > 0 && r.height > 0) el.classList.add('in'); });
+    if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
+    if (io) io.disconnect();
+    io = new IntersectionObserver(function (en) { en.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add('in'); io.unobserve(x.target); } }); }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    els.forEach(function (el) { io.observe(el); });
+  }
+  function playVids() {
+    document.querySelectorAll('video.autovid').forEach(function (v) { v.muted = true; var p = v.play && v.play(); if (p && p.catch) p.catch(function () {}); });
+  }
+  // tilt
+  document.querySelectorAll('.flip').forEach(function (el) {
+    function move(x, y) {
+      var r = el.getBoundingClientRect();
+      var px = Math.min(1, Math.max(0, (x - r.left) / r.width)), py = Math.min(1, Math.max(0, (y - r.top) / r.height));
+      el.style.setProperty('--ry', ((px - 0.5) * 22).toFixed(1) + 'deg');
+      el.style.setProperty('--rx', ((0.5 - py) * 18).toFixed(1) + 'deg');
+      el.style.setProperty('--gx', (px * 100).toFixed(0) + '%');
+      el.style.setProperty('--gy', (py * 100).toFixed(0) + '%');
+      el.classList.add('tilting');
+    }
+    function reset() { el.classList.remove('tilting'); el.style.setProperty('--rx', '0deg'); el.style.setProperty('--ry', '0deg'); }
+    el.addEventListener('pointermove', function (e) { move(e.clientX, e.clientY); });
+    el.addEventListener('touchmove', function (e) { var t = e.touches[0]; if (t) move(t.clientX, t.clientY); }, { passive: true });
+    ['pointerleave', 'pointerup', 'touchend', 'touchcancel'].forEach(function (ev) { el.addEventListener(ev, reset); });
+  });
+  // reviews autoscroll
+  var w = document.querySelector('.rv-wrap');
+  if (w) {
+    var vis = false, x, pause = 0;
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (en) { vis = en[0].isIntersecting; }).observe(w); else vis = true;
+    function hold() { pause = Date.now() + 700; }
+    ['pointerdown', 'touchstart', 'touchmove', 'wheel', 'mousedown'].forEach(function (ev) { w.addEventListener(ev, hold, { passive: true }); });
+    w.addEventListener('scroll', function () { if (x !== undefined && Math.abs(w.scrollLeft - x) > 3) hold(); }, { passive: true });
+    (function step() {
+      if (vis && Date.now() > pause) {
+        var half = w.scrollWidth / 3;
+        if (x === undefined || Math.abs(x - w.scrollLeft) > 2) x = w.scrollLeft;
+        x += 1.1; if (x >= half) x -= half;
+        w.scrollLeft = x;
+      }
+      requestAnimationFrame(step);
+    })();
+  }
+  setPage(location.hash === '#perevodchik' ? 'translator' : 'tutor', false);
+})();
+</script>
+</body>
+</html>
